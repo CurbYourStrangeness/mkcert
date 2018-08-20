@@ -1,5 +1,8 @@
 module github.com/FiloSottile/mkcert
 
+//Loads a property list, as well as text and ssl content as context
+//for this module
+
 require (
 	github.com/DHowett/go-plist v0.0.0-20180609054337-500bd5b9081b
 	golang.org/x/net v0.0.0-20180627171509-e514e69ffb8b
